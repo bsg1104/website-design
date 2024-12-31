@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>BRIGHT'S TRIVIA</h1>
+        <div id="quiz">
+            <p id="question">Question will appear here...</p>
+            <div id="options"></div>
+            <button id="submit-btn">Submit</button>
+        </div>
+        <div id="result" class="hidden">
+            <p id="score">Your score: 0</p>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+    <audio id="correct-sound" src="start.mp3"></audio>
+    <audio id="wrong-sound" src="wrong.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
