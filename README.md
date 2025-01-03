@@ -19,3 +19,8 @@ How to Run Locally 💻
 
 Navigate to the project directory
 Open index.html in your browser: Simply double-click the index.html file or use a live server.
+
+
+
+
+watch a demo here https://youtu.be/8xiFilLySxM?feature=shared
